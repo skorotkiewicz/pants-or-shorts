@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb3d0bb0b31f1684f067817acc0e57df",
+    "revision": "f8f8cb86b3627a5c8ca5a4426bf1d211",
     "url": "/pants-or-shorts/index.html"
   },
   {
-    "revision": "675272c5f0d09e00d28e",
+    "revision": "7780220627808afd5ceb",
     "url": "/pants-or-shorts/static/css/main.7168c233.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "675272c5f0d09e00d28e",
-    "url": "/pants-or-shorts/static/js/main.bbc2edb1.chunk.js"
+    "revision": "7780220627808afd5ceb",
+    "url": "/pants-or-shorts/static/js/main.a9ac6ccb.chunk.js"
   },
   {
     "revision": "ceccdc33f22a687deaa9",
