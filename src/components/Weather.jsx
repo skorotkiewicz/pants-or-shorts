@@ -20,7 +20,7 @@ const Weather = () => {
 
   useEffect(() => {
     // fetch("http://localhost:3000/test.json")
-    fetch("http://wttr.in/?format=j1")
+    fetch("https://wttr.in/?format=j1")
       .then((res) => res.json())
       .then((data) => {
         setData(data.current_condition[0]);
