@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pants-or-shorts/static/css/main.7168c233.chunk.css",
+    "main.js": "/pants-or-shorts/static/js/main.a9edeba8.chunk.js",
+    "main.js.map": "/pants-or-shorts/static/js/main.a9edeba8.chunk.js.map",
+    "runtime-main.js": "/pants-or-shorts/static/js/runtime-main.19e2ec13.js",
+    "runtime-main.js.map": "/pants-or-shorts/static/js/runtime-main.19e2ec13.js.map",
+    "static/js/2.1e8c7bb0.chunk.js": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js",
+    "static/js/2.1e8c7bb0.chunk.js.map": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js.map",
+    "index.html": "/pants-or-shorts/index.html",
+    "precache-manifest.f65eb773aa2b1e5ca9e518eb48b1a653.js": "/pants-or-shorts/precache-manifest.f65eb773aa2b1e5ca9e518eb48b1a653.js",
+    "service-worker.js": "/pants-or-shorts/service-worker.js",
+    "static/css/main.7168c233.chunk.css.map": "/pants-or-shorts/static/css/main.7168c233.chunk.css.map",
+    "static/js/2.1e8c7bb0.chunk.js.LICENSE.txt": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19e2ec13.js",
+    "static/js/2.1e8c7bb0.chunk.js",
+    "static/css/main.7168c233.chunk.css",
+    "static/js/main.a9edeba8.chunk.js"
+  ]
+}
