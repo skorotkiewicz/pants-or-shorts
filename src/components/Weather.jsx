@@ -3,7 +3,7 @@ import Widget from "./Widget";
 import Input from "./Input";
 
 const getWeather = (city, setData, setCity, setLoading) => {
-  fetch(`http://wttr.in/${city}?format=j1`)
+  fetch(`https://wttr.in/${city}?format=j1`)
     .then((res) => res.json())
     .then((data) => {
       setData(data.current_condition[0]);
