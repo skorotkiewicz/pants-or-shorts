@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ae969b864e707c241b7ed764130168b",
+    "revision": "ed295df242374b42248940101f9cbb84",
     "url": "/pants-or-shorts/index.html"
   },
   {
-    "revision": "dbeb624f47ada7110d6a",
+    "revision": "7d641d35e843fc1c1c6c",
     "url": "/pants-or-shorts/static/css/main.bf59fa8f.chunk.css"
   },
   {
-    "revision": "a8399321e48b173796a4",
-    "url": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js"
+    "revision": "b33cc011f42d0ad81b30",
+    "url": "/pants-or-shorts/static/js/2.241084e6.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js.LICENSE.txt"
+    "url": "/pants-or-shorts/static/js/2.241084e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbeb624f47ada7110d6a",
-    "url": "/pants-or-shorts/static/js/main.8e0362c0.chunk.js"
+    "revision": "7d641d35e843fc1c1c6c",
+    "url": "/pants-or-shorts/static/js/main.d8f41e98.chunk.js"
   },
   {
     "revision": "ceccdc33f22a687deaa9",
