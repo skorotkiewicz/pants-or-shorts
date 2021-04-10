@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import Widget from "./Widget";
 import Input from "./Input";
 
 const getWeather = (city, setData, setCity, setLoading) => {
-  fetch(`https://wttr.in/${city}?format=j1`)
-    .then((res) => res.json())
-    .then((data) => {
-      setData(data.current_condition[0]);
-      setCity(data.nearest_area[0].areaName[0].value);
-      setLoading(false);
-    });
+  axios.get(`https://wttr.in/${city}?format=j1`).then((d) => {
+    setData(d.data.current_condition[0]);
+    setCity(d.data.nearest_area[0].areaName[0].value);
+    setLoading(false);
+  });
 };
 
 const Weather = () => {
@@ -19,19 +18,16 @@ const Weather = () => {
   const [change, setChange] = useState(false);
 
   useEffect(() => {
-    // fetch("http://localhost:3000/test.json")
-    fetch("https://wttr.in/?format=j1")
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data.current_condition[0]);
-        setCity(data.nearest_area[0].areaName[0].value);
-        setLoading(false);
-      });
+    axios.get("https://wttr.in/?format=j1").then((d) => {
+      setData(d.data.current_condition[0]);
+      setCity(d.data.nearest_area[0].areaName[0].value);
+      setLoading(false);
+    });
   }, []);
 
   return (
     <>
-      {data && !loading ? <Widget data={data} /> : <h2>Please wait...</h2>}
+      {data && !loading ? <Widget data={data} /> : <h2>Loading...</h2>}
       <div className="change">
         {!change && !loading && (
           <>
