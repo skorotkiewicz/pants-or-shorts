@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pants-or-shorts/static/css/main.7168c233.chunk.css",
-    "main.js": "/pants-or-shorts/static/js/main.a9ac6ccb.chunk.js",
-    "main.js.map": "/pants-or-shorts/static/js/main.a9ac6ccb.chunk.js.map",
+    "main.js": "/pants-or-shorts/static/js/main.8e0362c0.chunk.js",
+    "main.js.map": "/pants-or-shorts/static/js/main.8e0362c0.chunk.js.map",
     "runtime-main.js": "/pants-or-shorts/static/js/runtime-main.19e2ec13.js",
     "runtime-main.js.map": "/pants-or-shorts/static/js/runtime-main.19e2ec13.js.map",
     "static/js/2.1e8c7bb0.chunk.js": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js",
     "static/js/2.1e8c7bb0.chunk.js.map": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js.map",
     "index.html": "/pants-or-shorts/index.html",
-    "precache-manifest.3de2748a900e1a60bdf130b936a04ac3.js": "/pants-or-shorts/precache-manifest.3de2748a900e1a60bdf130b936a04ac3.js",
+    "precache-manifest.863b4f7a56a27127e2c422007eab5a7f.js": "/pants-or-shorts/precache-manifest.863b4f7a56a27127e2c422007eab5a7f.js",
     "service-worker.js": "/pants-or-shorts/service-worker.js",
     "static/css/main.7168c233.chunk.css.map": "/pants-or-shorts/static/css/main.7168c233.chunk.css.map",
     "static/js/2.1e8c7bb0.chunk.js.LICENSE.txt": "/pants-or-shorts/static/js/2.1e8c7bb0.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.19e2ec13.js",
     "static/js/2.1e8c7bb0.chunk.js",
     "static/css/main.7168c233.chunk.css",
-    "static/js/main.a9ac6ccb.chunk.js"
+    "static/js/main.8e0362c0.chunk.js"
   ]
 }
