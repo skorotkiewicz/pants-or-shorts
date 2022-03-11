@@ -1,29 +1,57 @@
-import React from "react";
+import { useRef } from "react";
 
 const Input = ({
-  city,
-  setData,
+  change,
   setCity,
-  setLoading,
-  setChange,
+  city,
   getWeather,
+  loading,
+  setLoading,
+  setData,
+  setInit,
+  setChange,
 }) => {
+  const inRef = useRef();
+
   return (
     <>
-      <input
-        type="text"
-        placeholder={city}
-        onChange={(e) => setCity(e.target.value)}
-      />
-      <button
-        onClick={() => {
-          getWeather(city, setData, setCity, setLoading);
-          setLoading(true);
-          setChange(false);
-        }}
-      >
-        Change
-      </button>
+      <div>
+        {change ? (
+          <>
+            <input
+              type="text"
+              placeholder="Your city (>1 characters)"
+              onChange={(e) => setCity(e.target.value)}
+              ref={inRef}
+            />
+            <button
+              onClick={() => {
+                if (city.length > 1 && inRef.current && inRef.current.value) {
+                  localStorage.setItem("city", city);
+                  getWeather(setLoading, setData, setCity, setInit, city);
+                  setChange(false);
+                }
+              }}
+              title="Get weather"
+            >
+              Get
+            </button>
+
+            <button onClick={() => setChange(false)} title="Cancel">
+              x
+            </button>
+          </>
+        ) : (
+          <>
+            {!loading && (
+              <div>
+                Weather for <strong>{city}</strong>, not your city?
+                <span onClick={() => setChange(true)}>Change</span>
+              </div>
+            )}
+          </>
+        )}
+      </div>
     </>
   );
 };

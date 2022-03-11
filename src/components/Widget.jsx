@@ -1,9 +1,9 @@
-import React from "react";
+import Shorts from "./../images/shorts.svg";
+import Pants from "./../images/pants.svg";
 
 const Widget = ({ data }) => {
   let short = false;
   let sunny = false;
-  let desc = "";
 
   let fl = data.FeelsLikeC;
   let ws = data.windspeedKmph;
@@ -13,7 +13,6 @@ const Widget = ({ data }) => {
   wd.map((e) => {
     if (e.value === "Sunny") {
       sunny = true;
-      desc += e.value;
     }
   });
 
@@ -31,10 +30,29 @@ const Widget = ({ data }) => {
 
   return (
     <div className="widget">
-      <h2>{sunny ? "Sunny" : desc}</h2>
-      <h1 className="pants">
-        {short ? "Is shorts weather" : "Is pants weather"}
-      </h1>
+      <div className="desc">
+        <h2>
+          {wd[0] ? wd[0].value : ""} {fl} &deg;C
+        </h2>
+        <h1>{short ? "It's Shorts Weather" : "It's Pants Weather"}</h1>
+      </div>
+      <div className={`icons ${short ? "reverse" : ""}`}>
+        <img
+          width="100"
+          height={short ? "100" : "150"}
+          src={Pants}
+          alt="pants"
+          style={{ opacity: short ? 0.2 : 1 }}
+        />
+        <img
+          width="100"
+          height={short ? "100" : "50"}
+          src={Shorts}
+          alt="shorts"
+          style={{ opacity: short ? 1 : 0.2, marginBottom: 100 }}
+        />
+      </div>
+
       <div className="fl">
         Feels like: {fl} &deg;C | Windspeed: {ws} Km/h
       </div>
