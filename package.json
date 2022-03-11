@@ -1,7 +1,8 @@
 {
-  "name": "template",
+  "name": "pants-or-shorts-weather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://skorotkiewicz.github.io/pants-or-shorts/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build && cd build && cp index.html 404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
