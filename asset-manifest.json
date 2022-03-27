@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pants-or-shorts/static/css/main.9e47bb28.css",
-    "main.js": "/pants-or-shorts/static/js/main.64556339.js",
+    "main.css": "/pants-or-shorts/static/css/main.63e6d71d.css",
+    "main.js": "/pants-or-shorts/static/js/main.31a1d601.js",
     "static/media/pants.svg": "/pants-or-shorts/static/media/pants.2f52bed14ab648952d6ffd04ee49a9a2.svg",
     "static/media/shorts.svg": "/pants-or-shorts/static/media/shorts.dc5a3d549a0990989f99dd8dded8e9d6.svg",
     "index.html": "/pants-or-shorts/index.html"
   },
   "entrypoints": [
-    "static/css/main.9e47bb28.css",
-    "static/js/main.64556339.js"
+    "static/css/main.63e6d71d.css",
+    "static/js/main.31a1d601.js"
   ]
 }
